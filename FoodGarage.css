@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+body{
+    font-family: "Spline sans" sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight: 600;
+    color:black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    color: indianred;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.btn{
+    border-radius: 15px;
+    padding: 14px 38px;
+    font-weight: 500px;
+    
+}
+.btn-brand{
+    color:white;
+    background-color: rgb(252, 234, 73);
+    border-color: rgb(252, 189, 73);
+}
+.btn-brand:hover{  background-color: red;
+    border-color:red;
+    /* color:white; */
+}
+.collapse .navbar-collapse .btn .btn-brand:hover{
+    color:black;
+
+}
+/* banner slider */
+.slide1{
+    background: url(img2/cover1new.jpg);
+}
+.slide2{
+    background: url(img2/cover3.jpg);
+}
+.bg-cover{
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+/* About */
+#about .divider{
+    width: 60px;
+    height: 2px;
+    background-color:rgb(243, 166, 24); 
+}
+/* intro text */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: auto;
+}
+/* menu */
+#menu .nav-pills .nav-link{
+background-color: white;
+margin-right: 8px;
+margin-left: 8px;
+color: black;
+border-radius: 100px;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color:rgb(243, 166, 24) ;
+    color: white;
+}
+/* Features */
+
+#features {
+    background: url(img2/cover3.jpg);
+
+}
+.features{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.features .features-icon{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(243, 166, 24);
+    color: white;
+    font-size: 20px;
+    display:inline-grid;
+    align-content: center;
+    text-align: center;}
+    
+/* team */
+.team-member img{
+    max-width: 140px;
+    box-shadow: -10px -10px 0 indianred;
+
+}
+/* Reviews */
+#reviews{
+    background: url(img2/cover4.jpg);
+    background-repeat: no-repeat;
+}
+.review img{
+    width: 75px;
+    height: 75px;
+}
+.review .quote-icon{
+    font-size: 75px;
+    color: indianred;
+}
+#reviews .carousel-indicators{
+    margin-bottom: -3rem;
+}
+/* blog */
+.blog-post img{
+    width: 200px;
+    object-fit: cover;
+}
+/* Footer */
+footer{
+  background:  url(img2/footer\ black.jpg);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer-post img{
+    width: 45%;
+}
+footer .social-links a{
+    font-weight: normal;
+    font-size: 25px;
+    color: aquamarine;
+    margin-right: 10px;
+    
+}
